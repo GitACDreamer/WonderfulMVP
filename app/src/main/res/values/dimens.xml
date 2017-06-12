@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_medium_large">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_bigger_large">24dp</dimen>
+    <dimen name="margin_bigger">32dp</dimen>
+    <dimen name="comment_face_size">42dp</dimen>
+    <dimen name="bottom_bar_height">52dp</dimen>
+    <dimen name="list_image_size">64dp</dimen>
+    <dimen name="theme_image_height">120dp</dimen>
+    <dimen name="detail_image_height">260dp</dimen>
+    <dimen name="navigation_image_height">200dp</dimen>
+</resources>

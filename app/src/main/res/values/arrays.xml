@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tabs_zhihu">
+        <item>日报</item>
+        <item>主题</item>
+        <item>专栏</item>
+        <item>热门</item>
+    </string-array>
+    <string-array name="tabs_wechats">
+        <item>微信新闻</item>
+        <item>奇闻轶事</item>
+        <item>美女福利</item>
+    </string-array>
+    <string-array name="tabs_gank">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>前端</item>
+        <item>福利</item>
+    </string-array>
+    <string-array name="tabs_news">
+        <item>社会新闻</item>
+        <item>国内新闻</item>
+        <item>国际新闻</item>
+        <item>娱乐新闻</item>
+    </string-array>
+    <string-array name="tabs_gold">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>前端</item>
+        <item>后端</item>
+        <item>设计</item>
+        <item>产品</item>
+        <item>阅读</item>
+        <item>工具资源</item>
+    </string-array>
+    <string-array name="tabs_gold_type">
+        <item>android</item>
+        <item>ios</item>
+        <item>frontend</item>
+        <item>backend</item>
+        <item>design</item>
+        <item>product</item>
+        <item>article</item>
+        <item>freebie</item>
+    </string-array>
+</resources>

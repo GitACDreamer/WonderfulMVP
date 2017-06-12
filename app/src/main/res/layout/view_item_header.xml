@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_bar_height"
+    android:background="@color/colorGrey">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_small"
+        android:layout_weight="1"
+        android:background="@color/colorGreybg"/>
+
+    <TextView
+        android:id="@+id/tv_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="我是表头BalaBala"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_medium"
+        android:layout_weight="1"
+        android:background="@color/colorGreybg"/>
+</LinearLayout>

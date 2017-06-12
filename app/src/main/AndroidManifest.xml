@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.net.sunet">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.main.activity.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <activity
+            android:name=".ui.zhihu.activity.CalendarActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.main.activity.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.zhihu.activity.CommentActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.main.activity.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.zhihu.activity.SectionDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.zhihu.activity.DailyDetailActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name=".ui.zhihu.activity.ThemeDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.gank.activity.TechnologyDetailActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.main.activity.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.gank.activity.GirlDetailActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.main.activity.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.gold.activity.GoldManagerActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".ui.main.activity.MainActivity"
+            android:screenOrientation="portrait"/>
+        <service android:name=".utils.UpdateService"/>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="cn.net.sunet.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+</manifest>

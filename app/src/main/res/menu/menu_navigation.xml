@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_group_content">
+        <menu>
+            <item
+                android:id="@+id/menu_zhihu"
+                android:checkable="true"
+                android:checked="true"
+                android:icon="@mipmap/ic_menu_zhihu"
+                android:title="@string/menu_zhihu"/>
+            <item
+                android:id="@+id/menu_wechat"
+                android:checkable="true"
+                android:icon="@mipmap/ic_menu_wechat"
+                android:title="@string/menu_wechat"/>
+            <item
+                android:id="@+id/menu_gank"
+                android:checkable="true"
+                android:icon="@mipmap/ic_menu_gank"
+                android:title="@string/menu_gank"/>
+            <item
+                android:id="@+id/menu_funny"
+                android:checkable="true"
+                android:icon="@mipmap/ic_menu_news"
+                android:title="@string/menu_funny"/>
+            <item
+                android:id="@+id/menu_gold"
+                android:checkable="true"
+                android:icon="@mipmap/ic_menu_gold"
+                android:title="@string/menu_gold"/>
+        </menu>
+    </item>
+    <item android:title="@string/menu_group_options">
+        <menu>
+            <item
+                android:id="@+id/menu_like"
+                android:checkable="true"
+                android:icon="@mipmap/ic_menu_like"
+                android:title="@string/menu_collection"/>
+            <item
+                android:id="@+id/menu_setting"
+                android:checkable="true"
+                android:checked="false"
+                android:icon="@mipmap/ic_menu_setting"
+                android:title="@string/menu_setting"/>
+            <item
+                android:id="@+id/menu_about"
+                android:checkable="true"
+                android:icon="@mipmap/ic_menu_about"
+                android:title="@string/menu_about"/>
+            <item
+                android:id="@+id/menu_about2"
+                android:checkable="true"
+                android:icon="@mipmap/ic_menu_about"
+                android:title="@string/menu_about"/>
+        </menu>
+    </item>
+</menu>

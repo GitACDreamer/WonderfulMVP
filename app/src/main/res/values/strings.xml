@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">WonderfulMVP</string>
+    <string name="app_intro">a wonderful MVP frame app</string>
+    <string name="app_download">新版本下载中……</string>
+    <string name="app_bg_downloading">后台下载中，请稍候……</string>
+
+    //navigation menu
+    <string name="menu_group_content">资讯</string>
+    <string name="menu_group_options">选项</string>
+    <string name="menu_zhihu">知乎日报</string>
+    <string name="menu_wechat">微信精选</string>
+    <string name="menu_gank">干货集中营</string>
+    <string name="menu_funny">新闻资讯</string>
+    <string name="menu_gold">稀土掘金</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_collection">收藏</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_search">搜索</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="navigation_btn_setting">设置</string>
+    <string name="navigation_btn_exit">退出应用</string>
+
+    <string name="detail_bottom_share">分享</string>
+    <string name="detail_bottom_like">点赞</string>
+    <string name="detail_bottom_commit">评论</string>
+    <string name="comment_expand">收起</string>
+
+    <string name="action_copy">复制链接到剪贴板</string>
+    <string name="action_save">保存到本地</string>
+    <string name="action_share">分享链接</string>
+    <string name="action_collection">收藏</string>
+
+    <string name="zhihu_daily_title">今日热闻</string>
+    <string name="show_ok">确定</string>
+    <string name="show_cancel">取消</string>
+    <string name="about_update">更新</string>
+
+    <string
+        name="tv_about_info">\t\t\t\t\t【感谢中央电视台教人如何辨别邪教】\n一、具有强烈的排他性，始终宣传自己是最伟大的；\n二、具有强烈的强迫性，通过洗脑和自我标榜来确立自己的正确性；\n
+        三、具有压迫别人来获得利益的特性；\n四、内部通过裙带和其他手段来构筑关系网，以保证其利益；\n五、往往嘴上说得很好，实际上做着最龌龊的事情。</string>
+    <string name="tv_sunet"><a href='http://www.sunet.net.cn/'><u>官网</u></a></string>
+    <string name="tv_copyright"><a href='http://www.sunet.net.cn/'><u>使用条款</u></a></string>
+    <string name="about_copyright">深圳市湘聚实业有限公司 版权所有</string>
+    <string name="about_copyright_time">Copyright © 2015-2017 sunet.</string>
+    <string name="about_copyright_reserved">All Rights Reserved.</string>
+</resources>

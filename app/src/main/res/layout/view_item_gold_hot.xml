@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="1dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_gold_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.2"
+            android:maxLines="2"
+            android:textColor="@color/colorText"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_gold_item_like"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_large"
+            android:layout_below="@id/tv_gold_item_title"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@mipmap/ic_gold_like"
+            android:drawablePadding="2dp"
+            android:gravity="center"
+            android:textColor="@color/comment_reply"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_gold_item_author"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_large"
+            android:layout_below="@id/tv_gold_item_title"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/tv_gold_item_like"
+            android:drawableLeft="@mipmap/ic_gold_author"
+            android:drawablePadding="2dp"
+            android:gravity="center"
+            android:textColor="@color/comment_reply"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_gold_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_large"
+            android:layout_below="@id/tv_gold_item_title"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/tv_gold_item_author"
+            android:drawableLeft="@mipmap/ic_gold_time"
+            android:drawablePadding="2dp"
+            android:gravity="center"
+            android:textColor="@color/comment_reply"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_gold_item_img"
+        android:layout_width="@dimen/margin_large"
+        android:layout_height="@dimen/margin_large"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+</LinearLayout>
